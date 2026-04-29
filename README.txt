@@ -1,4 +1,4 @@
-ToolPilot - Complete Multi Tool Website
+﻿ToolPilot - Complete Multi Tool Website
 
 Included tools:
 1. Image Compressor
@@ -21,10 +21,11 @@ Files:
 - sitemap.xml
 
 Before publishing:
-Replace https://your-domain.com with your final GitHub Pages URL or custom domain.
+Replace https://tiru248.github.io/ToolPilot with your final GitHub Pages URL or custom domain.
 
 Suggested GitHub Pages URL:
 https://YOUR_USERNAME.github.io/ToolPilot/
 
 Important:
 Country presets are practical/common sizes. Always verify official embassy or passport authority requirements before final use.
+
