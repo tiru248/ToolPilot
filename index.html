@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToolPilot - Free Online Image Compressor, QR Code Generator, Barcode Generator & Passport Photo Maker | Resize, Compress, Background Remover</title>
+  <meta name="description" content="ToolPilot is a free online tool to compress images, generate QR codes, create barcodes, and make passport photos with exact size in mm/cm. Supports India, USA, UK, Canada, Schengen visa photo sizes. Background remover, print sheet, 300 DPI, A4 sheet layout. No upload needed - works in browser.">
+  <meta name="keywords" content="image compressor, compress image online, reduce image size, jpg compressor, png compressor, webp compressor, image size reducer, photo compressor, compress photo online free, reduce image file size, image optimizer, bulk image compressor, compress jpeg, compress png, photo size reducer, image kb reducer, reduce photo size online, compress image to 100kb, compress image to 50kb, compress image to 20kb, resize image online, image resizer, photo resizer, reduce image dimensions, change image size,
+  QR code generator, free QR code generator, QR code maker, create QR code online, QR code for URL, QR code for text, QR code for WiFi, QR code for phone number, QR code for email, custom QR code, QR code with color, QR code download PNG, QR code generator free online, dynamic QR code, static QR code, QR code scanner, generate QR code,
+  barcode generator, free barcode generator, barcode maker online, create barcode, CODE128 barcode, EAN13 barcode, UPC barcode, ITF14 barcode, CODE39 barcode, barcode for product, barcode label maker, barcode generator free, print barcode, barcode SVG, barcode PNG, inventory barcode, retail barcode, shipping barcode,
+  passport photo maker, passport photo online, passport size photo, passport photo creator, visa photo maker, passport photo editor, passport photo generator, passport photo size, passport photo background remover, passport photo white background, passport photo print, passport photo A4 sheet, passport photo 4x6, passport photo 300 DPI,
+  India passport photo size, India visa photo size, USA passport photo size, US visa photo size, UK passport photo size, Canada visa photo size, Canada passport photo size, Schengen visa photo size, Australia passport photo size, UAE visa photo size, Pakistan passport photo size, Nepal passport photo size, Japan visa photo size, China visa photo size, Korea visa photo size,
+  passport photo 3.5x4.5 cm, passport photo 2x2 inch, passport photo 35x45 mm, passport photo 51x51 mm, passport photo 5x5 cm, photo size converter, cm to pixel converter,
+  photo background remover, remove background from photo, background eraser, transparent background, white background photo, blue background passport photo, red background photo,
+  online photo editor free, browser based image tool, no upload image tool, privacy friendly photo tool, offline image compressor, client side image tool, free photo tools, photo utility online, image tools website, multi tool website">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="ToolPilot">
+  <meta name="theme-color" content="#6366f1">
+  <link rel="canonical" href="https://your-domain.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ToolPilot - Free Image Compressor, QR Code Generator, Barcode Maker & Passport Photo Creator">
+  <meta property="og:description" content="Free browser-based tools: compress images, generate QR codes & barcodes, make passport photos with country presets, background remover, print sheets. No upload, 100% private.">
+  <meta property="og:url" content="https://your-domain.com/">
+  <meta property="og:site_name" content="ToolPilot">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ToolPilot - Free Image Compressor, QR Code, Barcode & Passport Photo Maker">
+  <meta name="twitter:description" content="Compress images, generate QR codes, create barcodes, make passport photos online free. No upload needed. Browser-based privacy-friendly tools.">
+
+  <!-- JSON-LD Structured Data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ToolPilot",
+    "url": "https://your-domain.com/",
+    "description": "Free online multi-tool website with image compressor, QR code generator, barcode generator, and passport photo maker with country presets and background remover.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires a modern web browser with JavaScript enabled",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Image Compression (JPG, PNG, WEBP)",
+      "QR Code Generator with custom colors",
+      "Barcode Generator (CODE128, EAN13, UPC, ITF14, CODE39)",
+      "Passport Photo Maker with country presets",
+      "Background Remover for passport photos",
+      "Print Sheet Layout (A4, 4x6, 5x7, 6x8, A5, US Letter)",
+      "DPI Conversion (150, 200, 300, 600)",
+      "Custom size in cm and mm",
+      "No server upload - fully browser-based"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How to make passport size photo online free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Upload your photo on ToolPilot, select your country preset (India, USA, UK, etc.), crop the face area, choose white or transparent background, and click Generate. You can download single photo or a full print sheet for A4 or 4x6 paper. Everything runs in your browser for free."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the passport photo size for India?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Indian passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). This is the same for Indian visa applications. ToolPilot has a built-in India Passport preset that automatically sets this size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the USA passport photo size?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "US passport photo size is 2 inches x 2 inches (5.08 cm x 5.08 cm or 51 mm x 51 mm). ToolPilot has a USA Passport preset that sets this size automatically with 300 DPI output."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to compress image online without losing quality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use ToolPilot's image compressor. Upload your JPG, PNG or WEBP image, set quality between 70-85%, choose output format, and click Compress. The tool reduces file size while keeping good visual quality. You can also set max width and height to resize the image."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to generate QR code for free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open ToolPilot QR Code Generator tab, enter your text, URL, phone number or any data, customize colors and size, then click Generate. Download the QR code as PNG image. No sign-up or payment required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to remove background from passport photo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In ToolPilot Passport Photo Maker, upload your photo and click 'Remove Background'. The AI-powered background remover runs in your browser and removes the background automatically. Then choose white, transparent, or custom color background."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to print passport photos on A4 sheet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After generating your passport photo on ToolPilot, select A4 sheet layout, choose number of copies and orientation (portrait or landscape), then click Generate. The tool creates a print-ready A4 sheet with your photos properly arranged. Download and print directly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is ToolPilot safe to use? Does it upload my photos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, ToolPilot is completely safe. All tools run 100% in your browser using JavaScript and Canvas. Your images are never uploaded to any server. Everything is processed locally on your device, making it fully private and secure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to create barcode for products?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use ToolPilot Barcode Generator. Enter your product code, select barcode type (CODE128, EAN13, UPC, ITF14, or CODE39), set height and width, and click Generate. Download as SVG for print or PNG for digital use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What passport photo sizes does ToolPilot support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ToolPilot supports passport and visa photo sizes for India (3.5x4.5 cm), USA (5.08x5.08 cm), UK (3.5x4.5 cm), Canada (3.5x4.5 cm), Schengen visa (3.5x4.5 cm), Australia (3.5x4.5 cm), UAE (4x6 cm), Pakistan (3.5x4.5 cm), Nepal (3.5x4.5 cm), and custom sizes."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://your-domain.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Image Compressor", "item": "https://your-domain.com/#compressor"},
+      {"@type": "ListItem", "position": 3, "name": "QR Code Generator", "item": "https://your-domain.com/#qr"},
+      {"@type": "ListItem", "position": 4, "name": "Barcode Generator", "item": "https://your-domain.com/#barcode"},
+      {"@type": "ListItem", "position": 5, "name": "Passport Photo Maker", "item": "https://your-domain.com/#passport"}
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: HowTo for Passport Photo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Make Passport Size Photo Online",
+    "description": "Step by step guide to create passport size photo with correct dimensions using ToolPilot free online passport photo maker.",
+    "step": [
+      {"@type": "HowToStep", "name": "Upload Photo", "text": "Click Upload and select your photo from your device."},
+      {"@type": "HowToStep", "name": "Select Country Preset", "text": "Choose your country from the preset dropdown (India, USA, UK, Canada, etc.) to set the correct passport photo dimensions."},
+      {"@type": "HowToStep", "name": "Remove Background (Optional)", "text": "Click Remove Background to automatically remove the photo background using AI."},
+      {"@type": "HowToStep", "name": "Crop Face", "text": "Adjust the crop box to properly frame your face and shoulders."},
+      {"@type": "HowToStep", "name": "Generate Photo", "text": "Click Generate Passport Photo to create your passport photo with correct size and DPI."},
+      {"@type": "HowToStep", "name": "Download or Print", "text": "Download the single photo as PNG or JPG, or select a sheet layout (A4, 4x6) and download the print sheet."}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropperjs@1.6.2/dist/cropper.min.css">
+</head>
+<body>
+  <div class="loader-overlay" id="loaderOverlay">
+    <div class="loader-spinner"></div>
+    <div class="loader-text"><span id="loaderMessage">Processing</span><span class="loader-dots"></span></div>
+  </div>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <h1>Free Online Image Compressor, QR Code Generator, Barcode Maker & Passport Photo Creator</h1>
+        <p>Compress images, generate QR codes and barcodes, make passport and visa photos with country presets, background remover, custom sizes in mm/cm, print sheets (A4, 4x6), and 300 DPI output. 100% free, runs in your browser, no upload needed.</p>
+      </div>
+      <div class="brand-logo-wrap">
+        <img src="logo.png" alt="ToolPilot Logo" class="brand-logo">
+      </div>
+    </header>
+
+    <nav class="tool-tabs" aria-label="Tool navigation">
+      <button class="tab-btn active" data-tab="compressor">Image Compressor</button>
+      <button class="tab-btn" data-tab="qr">QR Code Generator</button>
+      <button class="tab-btn" data-tab="barcode">Barcode Generator</button>
+      <button class="tab-btn" data-tab="passport">Passport Photo Maker</button>
+    </nav>
+
+    <main>
+      <!-- IMAGE COMPRESSOR -->
+      <section class="tool-section active" id="compressor">
+        <div class="section-head">
+          <div>
+            <h2>Online Image Compressor - Compress JPG, PNG, WEBP Free</h2>
+            <p>Reduce image file size online without losing quality. Compress JPG, PNG, and WEBP images in your browser. No upload to server.</p>
+          </div>
+          <button id="clearImageBtn" class="btn-light">Clear</button>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-title">
+              <strong>Upload Image</strong>
+              <input id="imageInput" type="file" accept="image/png,image/jpeg,image/webp">
+            </div>
+
+            <div class="form-row">
+              <label>
+                Output Type
+                <select id="imageType">
+                  <option value="image/jpeg">JPG</option>
+                  <option value="image/webp">WEBP</option>
+                  <option value="image/png">PNG</option>
+                </select>
+              </label>
+
+              <label>
+                Quality
+                <input id="qualityRange" type="range" min="10" max="100" value="75">
+                <b id="qualityValue">75%</b>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Max Width
+                <input id="maxWidth" type="number" value="1600" min="100" step="100">
+              </label>
+
+              <label>
+                Max Height
+                <input id="maxHeight" type="number" value="1600" min="100" step="100">
+              </label>
+            </div>
+
+            <div class="actions">
+              <button id="compressBtn">Compress Image</button>
+              <button id="downloadCompressedBtn" class="btn-light">Download</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="result-title">Image Preview and Size</div>
+            <div class="stats-grid">
+              <div><span>Original</span><b id="originalSize">-</b></div>
+              <div><span>Compressed</span><b id="compressedSize">-</b></div>
+              <div><span>Saved</span><b id="savedPercent">-</b></div>
+              <div><span>Output</span><b id="outputPixels">-</b></div>
+            </div>
+            <div class="preview-box">
+              <img id="imagePreview" alt="Compressed image preview - online image compressor result">
+              <span id="imagePlaceholder">Upload and compress an image</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QR CODE -->
+      <section class="tool-section" id="qr">
+        <div class="section-head">
+          <div>
+            <h2>Free QR Code Generator - Create QR Code Online</h2>
+            <p>Generate QR codes for URLs, text, phone numbers, emails, Wi-Fi, vCard, and more. Custom colors, multiple sizes. Download as PNG.</p>
+          </div>
+          <button id="clearQrBtn" class="btn-light">Clear</button>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <label class="full-label">
+              QR Text or URL
+              <textarea id="qrText" placeholder="Enter text, URL, phone number, email, WiFi details, etc."></textarea>
+            </label>
+
+            <div class="form-row">
+              <label>
+                Size
+                <input id="qrSize" type="number" value="260" min="120" max="800" step="20">
+              </label>
+
+              <label>
+                Error Correction
+                <select id="qrCorrection">
+                  <option value="L">Low</option>
+                  <option value="M" selected>Medium</option>
+                  <option value="Q">Quartile</option>
+                  <option value="H">High</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Foreground
+                <input id="qrDark" type="color" value="#0f172a">
+              </label>
+
+              <label>
+                Background
+                <input id="qrLight" type="color" value="#ffffff">
+              </label>
+            </div>
+
+            <!-- Border / Design Options -->
+            <div class="qr-border-section">
+              <div class="card-title" style="margin:12px -14px 10px;padding:8px 14px">
+                <strong>Border & Design Options</strong>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  Border Style
+                  <select id="qrBorderStyle">
+                    <option value="none">No Border</option>
+                    <option value="solid">Solid</option>
+                    <option value="double">Double</option>
+                    <option value="dashed">Dashed</option>
+                    <option value="dotted">Dotted</option>
+                    <option value="rounded">Rounded</option>
+                    <option value="shadow">Shadow Card</option>
+                    <option value="gradient">Gradient Frame</option>
+                    <option value="fancy">Fancy Ornamental</option>
+                  </select>
+                </label>
+
+                <label>
+                  Border Color
+                  <input id="qrBorderColor" type="color" value="#6366f1">
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  Border Width (px)
+                  <input id="qrBorderWidth" type="range" min="2" max="30" value="8">
+                  <b id="qrBorderWidthVal">8px</b>
+                </label>
+
+                <label>
+                  Padding (px)
+                  <input id="qrPadding" type="range" min="5" max="60" value="16">
+                  <b id="qrPaddingVal">16px</b>
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  Corner Radius (px)
+                  <input id="qrCornerRadius" type="range" min="0" max="40" value="12">
+                  <b id="qrCornerRadiusVal">12px</b>
+                </label>
+
+                <label>
+                  Border Gradient End
+                  <input id="qrBorderColor2" type="color" value="#f472b6">
+                  <span class="small-note">Used only for Gradient Frame</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Custom Frame Upload -->
+            <div class="qr-frame-section">
+              <div class="card-title" style="margin:12px -14px 10px;padding:8px 14px">
+                <strong>Custom Frame / Design Upload</strong>
+              </div>
+              <p class="small-note" style="margin-bottom:8px">Upload your own frame image (PNG with transparent center recommended). QR code will be placed in the center of your design.</p>
+              <input id="qrFrameInput" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml">
+              <div class="qr-frame-resize-wrap" id="qrFrameResizeWrap">
+                <div class="qr-frame-preview" id="qrFramePreview">
+                  <span>No custom frame uploaded</span>
+                </div>
+                <div class="qr-frame-resize-handle" id="qrFrameResizeHandle" title="Drag to resize frame"></div>
+              </div>
+              <div class="qr-frame-size-info" id="qrFrameSizeInfo"></div>
+              <div class="actions" style="margin-top:6px">
+                <button id="clearQrFrameBtn" class="btn-light">Remove Frame</button>
+              </div>
+            </div>
+
+            <div class="actions">
+              <button id="generateQrBtn">Generate QR Code</button>
+              <button id="downloadQrBtn" class="btn-light">Download PNG</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="result-title">QR Code Preview <span id="qrEditorHint" class="small-note" style="font-weight:400;display:none"> — Drag QR to move, drag corner to resize</span></div>
+            <div class="qr-preview" id="qrPreview">
+              <span>Generated QR code will appear here</span>
+            </div>
+            <!-- Interactive editor: visible when frame is used -->
+            <div class="qr-editor-wrap" id="qrEditorWrap" style="display:none">
+              <div class="qr-editor-stage" id="qrEditorStage">
+                <img id="qrEditorFrame" alt="Frame background" draggable="false">
+                <div class="qr-editor-qr" id="qrEditorQr" title="Drag to move, corner to resize">
+                  <canvas id="qrEditorQrCanvas"></canvas>
+                  <div class="qr-editor-qr-handle" id="qrEditorQrHandle" title="Drag to resize QR"></div>
+                </div>
+              </div>
+              <div class="qr-editor-info" id="qrEditorInfo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BARCODE -->
+      <section class="tool-section" id="barcode">
+        <div class="section-head">
+          <div>
+            <h2>Online Barcode Generator - CODE128, EAN13, UPC, CODE39</h2>
+            <p>Generate barcodes for products, labels, inventory, retail, and shipping. Download as SVG or PNG. Free barcode maker.</p>
+          </div>
+          <button id="clearBarcodeBtn" class="btn-light">Clear</button>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <label class="full-label">
+              Barcode Value
+              <input id="barcodeValue" type="text" value="123456789012" placeholder="Enter barcode value">
+            </label>
+
+            <div class="form-row">
+              <label>
+                Barcode Type
+                <select id="barcodeType">
+                  <option value="CODE128">CODE128</option>
+                  <option value="EAN13">EAN13</option>
+                  <option value="UPC">UPC</option>
+                  <option value="ITF14">ITF14</option>
+                  <option value="CODE39">CODE39</option>
+                </select>
+              </label>
+
+              <label>
+                Bar Width
+                <input id="barcodeWidth" type="number" value="2" min="1" max="6" step="1">
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Height
+                <input id="barcodeHeight" type="number" value="90" min="40" max="220" step="10">
+              </label>
+
+              <label>
+                Show Text
+                <select id="barcodeText">
+                  <option value="true">Yes</option>
+                  <option value="false">No</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="actions">
+              <button id="generateBarcodeBtn">Generate Barcode</button>
+              <button id="downloadBarcodeSvgBtn" class="btn-light">Download SVG</button>
+              <button id="downloadBarcodePngBtn" class="btn-light">Download PNG</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="result-title">Barcode Preview</div>
+            <div class="barcode-preview">
+              <svg id="barcodeSvg"></svg>
+              <span id="barcodePlaceholder">Generated barcode will appear here</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PASSPORT PHOTO MAKER -->
+      <section class="tool-section" id="passport">
+        <div class="section-head">
+          <div>
+            <h2>Passport Photo Maker - Background Remover, Country Presets, Print Sheet</h2>
+            <p>Create passport and visa photos with exact size in mm/cm, country presets, AI background remover, white or custom background, 300 DPI, and printable A4/4x6 sheet layouts. Free online passport photo creator.</p>
+          </div>
+          <button id="passportResetBtn" class="btn-light">Clear</button>
+        </div>
+
+        <div class="passport-grid">
+          <div class="card">
+            <div class="card-title">
+              <strong>Upload and Configure</strong>
+              <input id="passportInput" type="file" accept="image/png,image/jpeg,image/webp">
+            </div>
+
+            <div class="form-row">
+              <label>
+                Country Preset
+                <div class="preset-filter-wrap">
+                  <input type="text" id="passportPresetSearch" placeholder="Search country..." autocomplete="off">
+                  <select id="passportPreset"></select>
+                </div>
+              </label>
+
+              <label>
+                DPI
+                <select id="passportDpi">
+                  <option value="300" selected>300 DPI</option>
+                  <option value="600">600 DPI</option>
+                  <option value="200">200 DPI</option>
+                  <option value="150">150 DPI</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Width (cm)
+                <input id="passportWidthCm" type="number" value="3.5" min="1" step="0.01">
+              </label>
+
+              <label>
+                Height (cm)
+                <input id="passportHeightCm" type="number" value="4.5" min="1" step="0.01">
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Output Background
+                <select id="passportBackground">
+                  <option value="white" selected>White</option>
+                  <option value="transparent">Transparent</option>
+                  <option value="original">Keep Original</option>
+                  <option value="custom">Custom Color</option>
+                </select>
+                <input type="color" id="passportBgColor" value="#ffffff" style="display:none; margin-top:6px; width:100%; height:36px; cursor:pointer; border:1px solid #cbd5e1; border-radius:6px; padding:2px;">
+              </label>
+
+              <label>
+                Sheet Layout
+                <select id="passportSheetType">
+                <option value="none">No Sheet</option>
+                <option value="4x6">4 x 6 inch sheet</option>
+                <option value="5x7">5 x 7 inch sheet</option>
+                <option value="6x8">6 x 8 inch sheet</option>
+                <option value="A5">A5 sheet</option>
+                <option value="A4">A4 sheet</option>
+                <option value="letter">US Letter sheet</option>
+              </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Copies on Sheet
+                <input id="passportCopies" type="number" value="8" min="1" max="30" step="1">
+              </label>
+
+              <label>
+                Sheet Orientation
+                <select id="passportSheetOrientation">
+                  <option value="portrait" selected>Portrait (Vertical)</option>
+                  <option value="landscape">Landscape (Horizontal)</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Output Type
+                <select id="passportFileType">
+                  <option value="image/png">PNG</option>
+                  <option value="image/jpeg">JPG</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="actions">
+              <button id="removeBgPassportBtn" class="btn-light">Remove Background</button>
+              <button id="generatePassportBtn">Generate Passport Photo</button>
+              <button id="previewPassportBtn" class="btn-light">Preview</button>
+            </div>
+
+            <div class="actions">
+              <button id="downloadPassportPngBtn" class="btn-light">Download Single PNG</button>
+              <button id="downloadPassportJpgBtn" class="btn-light">Download Single JPG</button>
+              <button id="downloadPassportSheetBtn" class="btn-light">Download Sheet</button>
+            </div>
+
+            <p class="small-note">
+              Notes: country presets are practical common sizes. Please verify official embassy or passport authority requirements before final use. First-time background removal may take a little longer because the model loads in the browser.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="result-title">Crop and Edit</div>
+            <div class="passport-stats">
+            <div><span>Preset</span><b id="passportPresetLabel">India Passport</b></div>
+            <div><span>Photo Size</span><b id="passportTargetSize">35 × 45 mm</b></div>
+            <div><span>Output Pixels</span><b id="passportOutputPx">413 × 531 px</b></div>
+            <div><span>Sheet Size</span><b id="passportSheetSize">-</b></div>
+            <div><span>Status</span><b id="passportStatus">Idle</b></div>
+            <div><span>Sheet Fit</span><b id="passportSheetFit">-</b></div>
+            <div><span>Max Copies</span><b id="passportMaxCopies">-</b></div>
+          </div>
+
+            <div class="cropper-wrap">
+              <img id="passportCropImage" alt="Passport photo crop editor - crop face for passport size photo">
+              <div id="passportCropPlaceholder" class="cropper-placeholder">Upload a photo to start cropping</div>
+            </div>
+
+            <div class="guide-note">
+              Position the face properly inside the crop box. You can drag the image and zoom slightly using the mouse wheel or touchpad.
+            </div>
+          </div>
+        </div>
+
+        <div class="passport-result-grid">
+          <div class="card">
+            <div class="result-title">Single Passport Photo Preview</div>
+            <div class="preview-box passport-preview-box">
+            <canvas id="passportCanvas"></canvas>
+            <span id="passportCanvasPlaceholder">Generated passport photo will appear here</span>
+          </div>
+          <div class="guide-note" id="passportSheetInfo">No sheet generated.</div>
+
+          </div>
+
+          <div class="card">
+            <div class="result-title">Print Sheet Preview</div>
+            <div class="preview-box passport-preview-box">
+              <canvas id="passportSheetCanvas"></canvas>
+              <span id="passportSheetPlaceholder">Generated print sheet will appear here</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SEO CONTENT ===== -->
+      <section class="seo-content">
+
+        <h2>Free Online Image Compressor - Reduce Image Size Without Losing Quality</h2>
+        <p>ToolPilot Image Compressor lets you compress JPG, PNG, and WEBP images directly in your browser. Reduce image file size for websites, emails, social media, and documents. Set custom quality level, maximum width, and maximum height to get the exact output you need. Whether you need to compress image to 100KB, 50KB, or 20KB, our tool gives you full control over output quality and dimensions. No sign-up required, no watermark, no file upload to server.</p>
+        <p>Use our image compressor to reduce photo size for WhatsApp, Instagram, Facebook, LinkedIn profile photo, email attachments, online forms, government applications, and more. Supports batch-friendly workflow - compress one image at a time with instant preview and size comparison showing original size, compressed size, and percentage saved.</p>
+
+        <h2>Online Image Resizer - Change Image Dimensions</h2>
+        <p>Resize images to any width and height. Set maximum width and maximum height to scale down large photos while maintaining aspect ratio. Convert between JPG, PNG, and WEBP formats. Useful for resizing images for website upload, blog post images, thumbnail creation, social media posts, and profile pictures.</p>
+
+        <h2>Free QR Code Generator - Create Custom QR Codes</h2>
+        <p>Generate QR codes for any text, URL, website link, phone number, email address, WiFi credentials, vCard contact, or plain message. Customize QR code colors - change foreground and background color to match your brand. Set custom size and error correction level (Low, Medium, Quartile, High). Download QR code as high quality PNG image.</p>
+        <p>Use our QR code generator for business cards, product packaging, restaurant menus, event tickets, marketing materials, flyers, posters, presentations, and digital signage. The generated QR code is scannable by all standard QR code reader apps and phone cameras.</p>
+
+        <h2>Online Barcode Generator - CODE128, EAN13, UPC, ITF14, CODE39</h2>
+        <p>Create barcodes for products, inventory management, retail labels, shipping labels, library books, asset tracking, and warehouse management. Supports the most popular barcode formats: CODE128 for general purpose, EAN13 for international retail products, UPC for North American retail, ITF14 for shipping containers and cartons, and CODE39 for industrial and government use.</p>
+        <p>Customize barcode bar width, height, and text display. Download barcodes as SVG for high quality print or PNG for digital use. All barcodes are generated in your browser with no server processing.</p>
+
+        <h2>Free Passport Photo Maker Online - Create Passport Size Photos</h2>
+        <p>Make passport size photos online with exact dimensions in cm and mm. ToolPilot passport photo maker supports all major country passport and visa photo size requirements. Upload your photo, select country preset, crop face properly, remove background if needed, and generate print-ready passport photos with correct DPI.</p>
+        <p>Download single passport photo as PNG or JPG with embedded DPI metadata so the file shows correct physical size (mm) when opened. Or create a print sheet with multiple copies arranged on A4, 4x6 inch, 5x7 inch, 6x8 inch, A5, or US Letter paper. Choose portrait or landscape orientation for the sheet.</p>
+
+        <h2>Country-Wise Passport and Visa Photo Size Guide</h2>
+        <h3>India Passport Photo Size</h3>
+        <p>Indian passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). This size is required for Indian passport application, Indian visa application, OCI card, PIO card, Aadhaar card, PAN card, and most Indian government ID documents. White background is mandatory for Indian passport photos.</p>
+
+        <h3>USA Passport Photo Size</h3>
+        <p>US passport photo size is 2 inches x 2 inches (5.08 cm x 5.08 cm or 51 mm x 51 mm). This is required for US passport application, US visa application (B1/B2, H1B, L1, F1, J1, etc.), Green Card application, and US immigration documents. White background required.</p>
+
+        <h3>UK Passport Photo Size</h3>
+        <p>United Kingdom passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). Required for UK passport renewal, UK visa application, and British identity documents. Light grey or cream background preferred.</p>
+
+        <h3>Canada Passport and Visa Photo Size</h3>
+        <p>Canadian passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). Same size used for Canada visa application, Canada PR card, Canadian citizenship application, and Study Permit. White or light coloured background required.</p>
+
+        <h3>Schengen Visa Photo Size</h3>
+        <p>Schengen visa photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). This standard applies to all Schengen area countries including Germany, France, Italy, Spain, Netherlands, Belgium, Austria, Switzerland, Greece, Portugal, Sweden, Norway, Denmark, Finland, Czech Republic, Poland, Hungary, and others. Light background required.</p>
+
+        <h3>Australia Passport Photo Size</h3>
+        <p>Australian passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). Used for Australian passport application, Australian visa, and immigration documents. White or light background.</p>
+
+        <h3>UAE Visa Photo Size</h3>
+        <p>UAE visa photo size is 4.0 cm x 6.0 cm (40 mm x 60 mm). Required for UAE tourist visa, employment visa, residence visa, and Dubai visa application. White background mandatory.</p>
+
+        <h3>Pakistan Passport Photo Size</h3>
+        <p>Pakistan passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). Used for Pakistani passport, NICOP, and visa applications. White or blue background.</p>
+
+        <h3>Nepal Passport Photo Size</h3>
+        <p>Nepal passport photo size is 3.5 cm x 4.5 cm (35 mm x 45 mm). Required for Nepali passport and visa applications.</p>
+
+        <h3>Other Countries</h3>
+        <p>You can also use Custom Size to enter exact width and height for any country including Japan (3.5x4.5 cm), China (3.3x4.8 cm), South Korea (3.5x4.5 cm), Saudi Arabia (4x6 cm), Malaysia (3.5x5.0 cm), Thailand (3.5x4.5 cm), Bangladesh (3.5x4.5 cm), Sri Lanka (3.5x4.5 cm), Indonesia (3x4 cm), Philippines (3.5x4.5 cm), Vietnam (4x6 cm), Singapore (3.5x4.5 cm), Russia (3.5x4.5 cm), Brazil (5x7 cm), Mexico (3.5x4.5 cm), Turkey (5x6 cm), South Africa (3.5x4.5 cm), Nigeria (3.5x4.5 cm), Egypt (4x6 cm), and more.</p>
+
+        <h2>AI Background Remover for Passport Photos</h2>
+        <p>Remove background from passport photo automatically using our AI-powered background remover. The tool runs entirely in your browser - your photo is never uploaded to any server. After removing background, choose white background (most common for passports), transparent background (for custom editing), or any custom color background. Perfect for creating professional passport photos at home.</p>
+
+        <h2>Print Passport Photos on A4 Sheet, 4x6 Photo Paper</h2>
+        <p>Arrange multiple passport photos on a single printable sheet. Supported sheet sizes: A4 paper (210 x 297 mm), A5 paper (148 x 210 mm), 4x6 inch photo paper (152.4 x 101.6 mm), 5x7 inch photo paper (177.8 x 127 mm), 6x8 inch photo paper (203.2 x 152.4 mm), and US Letter (215.9 x 279.4 mm). Choose portrait or landscape orientation. Set number of copies. The tool automatically calculates how many photos fit on the sheet.</p>
+        <p>Download the print sheet as PNG with correct DPI metadata. Open and print directly - the image will print at the correct physical size without any resizing needed.</p>
+
+        <h2>300 DPI Passport Photo - High Quality Print Output</h2>
+        <p>Generate passport photos at 300 DPI (dots per inch) for professional print quality. Also supports 600 DPI for ultra-high quality, 200 DPI for standard quality, and 150 DPI for draft quality. DPI metadata is embedded in the downloaded PNG and JPG files so the image shows correct physical dimensions when opened in any image viewer or print software.</p>
+
+        <h2>How to Make Passport Size Photo at Home</h2>
+        <p>Step 1: Take a clear front-facing photo with plain background using your phone camera. Step 2: Open ToolPilot and upload your photo. Step 3: Select your country from the preset dropdown. Step 4: Click Remove Background for clean white background. Step 5: Crop the face area properly inside the crop box. Step 6: Click Generate Passport Photo. Step 7: Select A4 or 4x6 sheet layout and set number of copies. Step 8: Download the print sheet and print on photo paper or regular paper at nearest print shop.</p>
+
+        <h2>100% Browser-Based - No Upload, Complete Privacy</h2>
+        <p>All ToolPilot tools run entirely in your web browser using JavaScript and HTML5 Canvas. Your images and data are never uploaded to any server. The image compressor uses Canvas API, QR code generation uses client-side JavaScript, barcode generation creates SVG locally, and the passport photo maker uses Canvas and Cropper.js on the client side. The AI background remover model loads and runs in your browser. This means your photos stay on your device - complete privacy guaranteed.</p>
+
+        <h2>Frequently Asked Questions (FAQ)</h2>
+
+        <h3>How to compress image online?</h3>
+        <p>Upload your image to ToolPilot, select output type (JPG, PNG, or WEBP), adjust quality slider, set max width and height if needed, and click Compress. Download the compressed image. No sign-up needed.</p>
+
+        <h3>How to reduce image size to 100KB or 50KB?</h3>
+        <p>Upload your image, lower the quality slider (50-70% for 100KB, 30-50% for 50KB), reduce max width to 800-1200px, and choose JPG format for smallest size. The exact output size depends on the image content.</p>
+
+        <h3>How to make passport photo online free?</h3>
+        <p>Go to ToolPilot Passport Photo Maker tab, upload your photo, select country preset, optionally remove background, crop the face, and click Generate. Download single photo or print sheet. Everything is free.</p>
+
+        <h3>How to remove background from photo?</h3>
+        <p>In Passport Photo Maker, upload your photo and click Remove Background. The AI model removes the background automatically in your browser. Then set white, transparent, or custom color background.</p>
+
+        <h3>What is the passport photo size for India in cm?</h3>
+        <p>India passport photo size is 3.5 cm x 4.5 cm (35mm x 45mm). Select "India Passport" preset in ToolPilot to set this automatically.</p>
+
+        <h3>What is the passport photo size for USA in inches?</h3>
+        <p>US passport photo size is 2 inches x 2 inches (51mm x 51mm). Select "USA Passport" preset in ToolPilot.</p>
+
+        <h3>How to print passport photos on A4 paper?</h3>
+        <p>After generating passport photo, select "A4 sheet" from Sheet Layout dropdown, set number of copies, and click Generate. Download the sheet and print at 100% scale (no fit-to-page).</p>
+
+        <h3>Can I generate QR code for free?</h3>
+        <p>Yes, ToolPilot QR Code Generator is completely free. Enter any text or URL, customize colors and size, generate, and download as PNG. No limits, no watermark.</p>
+
+        <h3>What barcode formats are supported?</h3>
+        <p>ToolPilot supports CODE128 (general purpose), EAN13 (retail international), UPC (retail North America), ITF14 (shipping containers), and CODE39 (industrial/government). Download as SVG or PNG.</p>
+
+        <h3>Is ToolPilot safe? Does it upload my photos?</h3>
+        <p>ToolPilot is 100% safe. All processing happens in your browser. No images are uploaded to any server. No data is collected. No cookies for tracking. Your photos stay on your device.</p>
+
+        <h3>Can I use ToolPilot on mobile phone?</h3>
+        <p>Yes, ToolPilot is fully responsive and works on mobile phones, tablets, laptops, and desktops. All features work the same on any device with a modern web browser.</p>
+
+        <h3>How to make visa photo online?</h3>
+        <p>Same as passport photo - upload photo, select the country preset for the visa you are applying for, remove background, crop, and generate. Each country preset has the correct visa photo dimensions.</p>
+
+        <h3>How to convert photo to passport size?</h3>
+        <p>Upload any photo to ToolPilot Passport Photo Maker, select your country, crop the face to fit passport requirements, and click Generate. The tool automatically converts your photo to the exact passport dimensions with correct DPI.</p>
+      </section>
+    </main>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/cropperjs@1.6.2/dist/cropper.min.js"></script>
+  <script defer src="app.js"></script>
+</body>
+</html>
